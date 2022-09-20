@@ -1,4 +1,4 @@
-setTimeout(() => {
+
   const NgrokFreenom = require("@sundawning/ngrok-freenom-redirect");
 NgrokFreenom.start({
   ngrok: {
@@ -11,7 +11,6 @@ NgrokFreenom.start({
     domain: "daboistag.ml",
   },
 });
-}, 60000);
   
 
 
